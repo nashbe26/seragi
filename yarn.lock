@@ -399,10 +399,17 @@
   "resolved" "https://registry.npmjs.org/@types/aws-lambda/-/aws-lambda-8.10.94.tgz"
   "version" "8.10.94"
 
-"@types/bluebird@^3.5.33":
-  "integrity" "sha512-HBNx4lhkxN7bx6P0++W8E289foSu8kO8GCk2unhuVggO+cE7rh9DhZUyPhUxNRG9m+5B5BTKxZQ5ZP92x/mx9Q=="
-  "resolved" "https://registry.npmjs.org/@types/bluebird/-/bluebird-3.5.36.tgz"
-  "version" "3.5.36"
+"@types/bluebird-global@^3.5.18":
+  "integrity" "sha512-urrxCHYJjyZQKgqOFtXCT1Dp7nPEgkG+OdiL+vPfaud0lePzOoyBc45PdVLMvHZviE/RhDsaoqg53JB2YK7DsA=="
+  "resolved" "https://registry.npmjs.org/@types/bluebird-global/-/bluebird-global-3.5.18.tgz"
+  "version" "3.5.18"
+  dependencies:
+    "@types/bluebird" "*"
+
+"@types/bluebird@*", "@types/bluebird@^3.5.42":
+  "integrity" "sha512-Jhy+MWRlro6UjVi578V/4ZGNfeCOcNCp0YaFNIUGFKlImowqwb1O/22wDVk3FDGMLqxdpOV3qQHD5fPEH4hK6A=="
+  "resolved" "https://registry.npmjs.org/@types/bluebird/-/bluebird-3.5.42.tgz"
+  "version" "3.5.42"
 
 "@types/body-parser@*":
   "integrity" "sha512-ALYone6pm6QmwZoAgeyNksccT9Q4AWZQ6PvfwR37GT6r6FWUPguq6sUmNGSMV2Wr761oQoBxwGGa6DR5o1DC9g=="

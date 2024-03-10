@@ -8,9 +8,7 @@ const ADMIN = 'admin';
 const LOGGED_USER = '_loggedUser';
 
 import * as Bluebird from 'bluebird';
-declare global {
-  export interface Promise<T> extends Bluebird<T> {}
-}
+
 
 const handleJWT = (req: any, res: any, next: any, roles: any) => async (err: any, user: any, info: any) => {
   const error = err || info;

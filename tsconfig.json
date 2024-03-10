@@ -4,9 +4,9 @@
     "allowJs": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
-    "target": "es6",
-    "module": "commonjs"
-  },
+    "module": "commonjs",
+    "target": "es6"
+    },
   "include": [
     "./src/**/*"
   ],
